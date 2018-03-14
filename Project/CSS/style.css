@@ -1,0 +1,132 @@
+.create-post {
+				margin: auto;
+				margin-top: 15px;
+				padding: 5px 5px;
+				background-color: #333;
+				min-height: 100px;
+				width: 300px;
+				color: white;
+				border: solid black 3px;
+			}
+
+			.create-post input {
+				padding: 5px 5px;
+				border: solid #4CAF50 2px;
+				border-radius: 2px;
+				width: auto;
+			}
+
+			#content {
+				border: solid #4CAF50 2px;
+				border-radius: 2px;
+				height: 190px;
+				width: 290px;
+				resize: none;
+			}
+
+			ul {
+    			list-style-type: none;
+    			margin: 0;
+    			padding: 0;
+    			overflow: hidden;
+    			background-color: #333;
+    			border: solid black 3px;
+			}
+
+			li {
+    			float: left;
+			}
+
+			li a {
+    			display: block;
+    			color: white;
+    			text-align: center;
+    			padding: 15px 15px;
+    			text-decoration: none;
+			}
+
+			li a:hover:not(.active) {
+    			background-color: #111;
+			}
+
+			.active {
+   			 	background-color: #4CAF50;
+   			 	border-left: solid black 3px;
+   			 	border-right: solid black 3px;
+			}
+
+			#submit-button {
+				border: solid #4CAF50 2px;
+				border-radius: 2px;
+				background-color: white;
+			}
+.post-container {
+          list-style-type: none;
+          word-wrap: break-word;
+          margin: auto;
+          margin-top: 5px;
+          padding: 5px 5px;
+          background-color: gray;
+          border: solid black 3px;
+          min-height: 100px;
+          height: auto;
+          width: 300px;
+      }
+      .post-container-title {
+          text-align: center;
+          padding: 5px 5px;
+          width: 290px;
+          background-color: white;
+          border-radius: 5px;
+          font-size: 20px;
+          font-weight: 600;
+      }
+      .post-container-content {
+          margin-top: 5px;
+          padding: 5px 10px;
+          background-color: white;
+          border-radius: 5px;
+          width: 280px;
+      }
+      .post-container-info {
+          font-size: 11px;
+          margin-top: 5px;
+          padding: 5px 5px;
+          background-color: white;
+          border-radius: 5px;
+      }
+        .index-body {
+			font-family: monospace;
+			font-size: 18px;
+			font-weight: 600;
+		}
+		.login {
+			margin: auto;
+			border: solid black 4px;
+			border-radius: 4px;
+			background-color: #4CAF50;
+			height: 70px;
+			width: 120px;
+
+		}
+
+		.register {
+			margin: auto;
+            margin-top: 10px;
+			border: solid black 4px;
+			border-radius: 4px;
+			background-color: #4CAF50;
+			height: 70px;
+			width: 120px;
+
+		}
+		input {
+			border-radius: 5px;
+			border: solid grey 2px;
+		}
+
+		#login-button {
+			border-radius: 5px;
+			border: solid grey 2px;
+			background-color: white;
+		}
